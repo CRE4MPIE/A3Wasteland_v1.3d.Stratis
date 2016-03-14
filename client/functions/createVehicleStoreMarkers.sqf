@@ -19,7 +19,7 @@
 		_marker = createMarkerLocal [_markerName, _npcPos];
 		_markerName setMarkerShapeLocal "ICON";
 		_markerName setMarkerTypeLocal "c_car";
-//		_markerName setMarkerColorLocal "ColorOrange";
+		_markerName setMarkerColorLocal "ColorYellow";
 		_markerName setMarkerSizeLocal [0.8,0.8];
 		_markerName setMarkerTextLocal "Vehicle Store";
 	};

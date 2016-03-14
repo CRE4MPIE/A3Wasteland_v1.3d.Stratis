@@ -66,7 +66,7 @@ for "_i" from 1 to _nbUnits do
 			_unit addMagazine "7Rnd_408_Mag";
 			_unit addMagazine "7Rnd_408_Mag";
 			_unit addMagazine "7Rnd_408_Mag";
-			_unit addPrimaryWeaponItem "optic_tws";
+//			_unit addPrimaryWeaponItem "optic_tws";
 		};
 		// AA every 7 units
 		case (_i % 7 == 0):

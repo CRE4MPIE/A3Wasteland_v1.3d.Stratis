@@ -54,7 +54,7 @@ private ["_obj","_pos","_fog1","_fog2","_fog3","_inVehicle"];
     };
 [] spawn {
     while {true} do {
-        if(daytime > 23 || daytime < 1) then {
+        if(daytime > 4 || daytime < 6) then {
             if (player getVariable ["playerfog", -1] < time) then {
                 player setVariable ["playerfog", floor time + 5];
                 player spawn doofog;

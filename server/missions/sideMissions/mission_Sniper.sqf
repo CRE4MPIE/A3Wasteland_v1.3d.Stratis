@@ -25,26 +25,26 @@ _setupObjects =
 	{ deleteVehicle _x } forEach _baseToDelete; 
 	
 	_randomBox = ["mission_USLaunchers","mission_USSpecial","mission_Main_A3snipers","mission_TOP_Sniper","mission_TOP_Gear1","airdrop_DLC_Rifles","airdrop_DLC_LMGs","airdrop_Snipers"] call BIS_fnc_selectRandom;
-_randomCase = ["Box_FIA_Support_F","Box_FIA_Wps_F","Box_FIA_Ammo_F","Box_NATO_WpsSpecial_F","Box_East_WpsSpecial_F","Box_NATO_Ammo_F","Box_East_Ammo_F"] call BIS_fnc_selectRandom;
-	
-	_box1 = createVehicle [_randomCase, _missionPos, [], 5, "None"];
-	_box1 setDir random 360;
-	[_box1, _randomBox] call fn_refillbox;
-
-	
-	{ _x setVariable ["R3F_LOG_disabled", true, true] } forEach [_box1];
+	_randomCase = ["Box_FIA_Support_F","Box_FIA_Wps_F","Box_FIA_Ammo_F","Box_NATO_WpsSpecial_F","Box_East_WpsSpecial_F","Box_NATO_Ammo_F","Box_East_Ammo_F"] call BIS_fnc_selectRandom;
 	
 	_tent = createVehicle ["CamoNet_INDP_big_F", _missionPos, [], 3, "None"];
 	_tent allowDamage false;
 	_tent setDir random 360;
 	_tent setVariable ["R3F_LOG_disabled", false];
 	
-	_missionPos = getPosASL _tent;
+	_box1 = createVehicle [_randomCase, _missionPos, [], 5, "None"];
+	_box1 setDir random 360;
+	[_box1, _randomBox] call fn_refillbox;
+	
+	{ _x setVariable ["R3F_LOG_disabled", true, true] } forEach [_box1];
+	
+/*	_missionPos = getPosATL _tent;
 	_obj = createVehicle ["I_GMG_01_high_F", _missionPos,[], 10,"None"]; 
 	_obj setPosASL [_missionPos select 0, (_missionPos select 1) + 2, _missionPos select 2];
-	
+*/	
 	_aiGroup = createGroup CIVILIAN;
 	[_aiGroup,_missionPos] spawn createcustomGroup3;
+	
 
 	_aiGroup setCombatMode "RED";
 	_aiGroup setBehaviour "COMBAT";

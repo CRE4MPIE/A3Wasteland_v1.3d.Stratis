@@ -280,10 +280,10 @@ accessoriesArray = compileFinal str
 	["Kahlia (Old)", "optic_KHS_old", 4000, "item"], // DLC Item
 	["Kahlia (Tan)", "optic_KHS_tan", 3000, "item"], // DLC Item
 	["LRPS", "optic_LRPS", 5000, "item"],
-	["NVS", "optic_NVS", 2500, "item"],
-	["TWS MG", "optic_tws_mg", 60000, "item"],
-	["TWS", "optic_tws", 65000, "item"],
-	["Nightstalker", "optic_Nightstalker", 75000, "item"]
+	["NVS", "optic_NVS", 2500, "item"]
+//	["TWS MG", "optic_tws_mg", 60000, "item"],
+//	["TWS", "optic_tws", 65000, "item"],
+//	["Nightstalker", "optic_Nightstalker", 75000, "item"]
 ];
 
 // If commented, means the color/camo isn't implemented or is a duplicate of another hat
@@ -1008,7 +1008,7 @@ customPlayerItems = compileFinal str
 	["Repair Kit", "repairkit", localize "STR_WL_ShopDescriptions_RepairKit", "client\icons\briefcase.paa", 750, 375],
 	["Jerry Can (Full)", "jerrycanfull", localize "STR_WL_ShopDescriptions_fuelFull", "client\icons\jerrycan.paa", 150, 75],
 	["Jerry Can (Empty)", "jerrycanempty", localize "STR_WL_ShopDescriptions_fuelEmpty", "client\icons\jerrycan.paa", 50, 25],
-	["Spawn Beacon", "spawnbeacon", localize "STR_WL_ShopDescriptions_spawnBeacon", "client\icons\spawnbeacon.paa", 5000, 2500],
+	["Spawn Beacon", "spawnbeacon", localize "STR_WL_ShopDescriptions_spawnBeacon", "client\icons\spawnbeacon.paa", 10000, 2500],
 	["Camo Net", "camonet", localize "STR_WL_ShopDescriptions_Camo", "client\icons\camonet.paa", 600, 300],
 	["Syphon Hose", "syphonhose", localize "STR_WL_ShopDescriptions_SyphonHose", "client\icons\syphonhose.paa", 200, 100],
 	["Energy Drink", "energydrink", localize "STR_WL_ShopDescriptions_Energy_Drink", "client\icons\energydrink.paa", 100, 50],

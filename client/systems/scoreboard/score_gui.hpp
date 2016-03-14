@@ -62,7 +62,7 @@ class ScoreGUI : IGUIBack
 		class PListTopText : w_RscTextCenter
 		{
 			idc = -1;
-			text = "Exile-Z.NET Wasteland";
+			text = "Leaderboard";
 			sizeEx = 0.06 * TEXT_SCALE;
 
 			#define PListTopText_Y (PListBG_Y + CENTER(PListTopBG_H, PListTopBG_H))

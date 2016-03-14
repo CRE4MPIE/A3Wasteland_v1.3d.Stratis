@@ -17,6 +17,6 @@ sleep 10;
 titleText ["Reduce Altitude immediately!", "PLAIN DOWN", 3];
 playSound3D ["A3\Sounds_F\sfx\alarmcar.wss", player]; 
 sleep 5;
-playsound "explo1";
+// playsound "explo1";
 titleText ["Your flight systems have been disabled!", "PLAIN DOWN", 3];
 vehicle player setFuel 0;

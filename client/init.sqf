@@ -7,6 +7,8 @@
 //@file Created: 20/11/2012 05:19
 //@file Description: The client init.
 
+
+
 if (isDedicated) exitWith {};
 
 if (!isServer) then
@@ -40,7 +42,7 @@ waitUntil {time > 0.1};
 
 
 //disable environmental effects (ambient life + sound)
-enableEnvironment false;
+//enableEnvironment false;
 
 removeAllWeapons player;
 player switchMove "";

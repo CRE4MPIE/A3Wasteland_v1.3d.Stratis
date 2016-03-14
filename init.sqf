@@ -43,7 +43,7 @@ if (!isDedicated) then
 	{
 		if (hasInterface) then // Normal player
 		{
-			9999 cutText ["Welcome to Exile-Z.NET A3Wasteland, please wait for your client to initialize", "BLACK", 0.01];
+			9999 cutText ["Welcome to GG A3Wasteland, please wait for your client to initialize", "BLACK", 0.01];
 
 			waitUntil {!isNull player};
 			player setVariable ["playerSpawning", true, true];
@@ -84,13 +84,13 @@ if (hasInterface || isServer) then
 	[] execVM "addons\proving_ground\init.sqf";
 	[] execVM "addons\JumpMF\init.sqf";
 	[] execVM "addons\outlw_magRepack\MagRepack_init.sqf";
-	[] execVM "addons\lsd_nvg\init.sqf";
+//	[] execVM "addons\lsd_nvg\init.sqf";
 	if (isNil "drn_DynamicWeather_MainThread") then { drn_DynamicWeather_MainThread = [] execVM "addons\scripts\DynamicWeatherEffects.sqf" };
 	[] execVM "addons\laptop\init.sqf";                   // Addon for hack laptop mission
 	[] execVM "addons\vactions\functions.sqf";            // Micovery vehicle actions
 	[] execVM "addons\APOC_Airdrop_Assistance\init.sqf";  // Airdrop
 	[] execVM "addons\AF_Keypad\AF_KP_vars.sqf";          // Keypad for base locking
-//	[] execVM "addons\zlt_fastrope\zlt_fastrope.sqf";     // Fastrope
+	[] execVM "addons\zlt_fastrope\zlt_fastrope.sqf";     // Fastrope
 	[] execVM "addons\HvT\HvT.sqf";                       // High Value Target
 	[] execVM "addons\HvT\HvD.sqf";                       // High Value Drugrunner
 	[] execVM "addons\TearGas\tear_gas.sqf"; 			  // teargass bitches !

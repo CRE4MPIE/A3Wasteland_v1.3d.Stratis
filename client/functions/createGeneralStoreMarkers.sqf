@@ -19,7 +19,7 @@
 		_marker = createMarkerLocal [_markerName, _npcPos];
 		_markerName setMarkerShapeLocal "ICON";
 		_markerName setMarkerTypeLocal "loc_Tourism";
-//		_markerName setMarkerColorLocal "ColorBlue";
+		_markerName setMarkerColorLocal "ColorBlue";
 		_markerName setMarkerSizeLocal [0.8,0.8];
 		_markerName setMarkerTextLocal "General Store";
 	};

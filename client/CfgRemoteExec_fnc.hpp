@@ -11,7 +11,7 @@ class BIS_fnc_effectKilledAirDestruction {};
 class BIS_fnc_effectKilledSecondaries {};
 class BIS_fnc_objectVar {};
 
-// do NOT whitelist BIS_fnc_execVM or BIS_fnc_spawn, it will allow exploits!
+// do NOT whitelist BIS_fnc_execVM or BIS_fnc_spawn, it will allow exploits! - Disabled for Debugging
 
 // A3W official
 class A3W_fnc_adminMenuLog { allowedTargets = 2; };

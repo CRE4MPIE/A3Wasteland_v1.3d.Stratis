@@ -71,7 +71,7 @@ class playerSettings {
 			x = 0.225; y = 0.20;
 			w = 0.32 / (4/3); h = 0.32;
 		};
-
+	
 		class waterText : w_RscText {
 			idc = water_text;
 			text = "";
