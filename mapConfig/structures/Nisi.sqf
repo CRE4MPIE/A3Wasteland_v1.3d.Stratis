@@ -286,7 +286,7 @@ _pos = [2051.0456543,4153.163086,-0.598289];
 _object = createVehicle ["Land_Billboard_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 10;
 _object setPosATL _pos;
-_object SetObjectTextureGlobal [0,"mapconfig\logo.png"];
+_object SetObjectTextureGlobal [0,"mapconfig\logo.paa"];
 _object setVariable ["R3F_LOG_disabled", true];
 _object allowDamage true;
 _object enableSimulation false;
