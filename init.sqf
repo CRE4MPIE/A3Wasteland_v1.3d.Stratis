@@ -95,5 +95,5 @@ if (hasInterface || isServer) then
 	[] execVM "addons\HvT\HvD.sqf";                       // High Value Drugrunner
 	[] execVM "addons\TearGas\tear_gas.sqf"; 			  // teargass bitches !
 	if (isServer) then {call compile preprocessFile "mapconfig\structures\initBuildings.sqf";}; // GID Positioning System
-	_GF = [] execVM "addons\fog\fog.sqf";				//creepy ground fog between 19h00 and 07h00
+//	_GF = [] execVM "addons\fog\fog.sqf";				//creepy ground fog between 19h00 and 07h00
 };
