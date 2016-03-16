@@ -3164,7 +3164,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.40000001;
-			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.png""];    ";
+			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.paa""];    ";
 		};
 		class Item2
 		{
@@ -3184,7 +3184,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.40000001;
-			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.png""];    ";
+			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.paa""];    ";
 		};
 		class Item4
 		{
@@ -3194,7 +3194,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.40000001;
-			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.png""];    ";
+			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.paa""];    ";
 		};
 		class Item5
 		{
@@ -6188,7 +6188,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false;this SetObjectTexture [0,""mapconfig\logo.png""];this setVectorUp [0,0,+0.2]";
+			init="this enableSimulation false; this allowDamage false;this SetObjectTexture [0,""mapconfig\logo.paa""];this setVectorUp [0,0,+0.2]";
 		};
 		class Item276
 		{
@@ -6462,7 +6462,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
-			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.png""];    ";
+			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.paa""];    ";
 		};
 		class Item301
 		{
@@ -10632,7 +10632,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.40000001;
-			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.png""];    ";
+			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.paa""];    ";
 		};
 		class Item682
 		{
@@ -10642,7 +10642,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.40000001;
-			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.png""];    ";
+			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.paa""];    ";
 		};
 		class Item683
 		{
@@ -11162,7 +11162,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.40000001;
-			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.png""];    ";
+			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.paa""];    ";
 		};
 		class Item735
 		{
@@ -11172,7 +11172,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.40000001;
-			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.png""];    ";
+			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.paa""];    ";
 		};
 		class Item736
 		{
@@ -11242,7 +11242,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.40000001;
-			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.png""];    ";
+			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.paa""];    ";
 		};
 		class Item743
 		{
@@ -11312,7 +11312,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.40000001;
-			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.png""];    ";
+			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.paa""];    ";
 		};
 		class Item750
 		{
@@ -11322,7 +11322,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.40000001;
-			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.png""];    ";
+			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.paa""];    ";
 		};
 		class Item751
 		{
@@ -11494,7 +11494,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.40000001;
-			init="this enableSimulation false; this allowDamage false;this SetObjectTexture [0,""mapconfig\logo.png""];this setVectorUp [0,0,+0.1]";
+			init="this enableSimulation false; this allowDamage false;this SetObjectTexture [0,""mapconfig\logo.paa""];this setVectorUp [0,0,+0.1]";
 		};
 		class Item768
 		{
@@ -11544,7 +11544,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.40000001;
-			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.png""];    ";
+			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.paa""];    ";
 		};
 		class Item773
 		{
@@ -11574,7 +11574,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.40000001;
-			init="this enableSimulation false; this allowDamage false;this SetObjectTexture [0,""mapconfig\logo.png""];this setVectorUp [0,0,+0.2]";
+			init="this enableSimulation false; this allowDamage false;this SetObjectTexture [0,""mapconfig\logo.paa""];this setVectorUp [0,0,+0.2]";
 		};
 		class Item776
 		{
@@ -11584,7 +11584,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.40000001;
-			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.png""];    ";
+			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.paa""];    ";
 		};
 		class Item777
 		{
@@ -11614,7 +11614,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.40000001;
-			init="this enableSimulation false; this allowDamage false;this SetObjectTexture [0,""mapconfig\logo.png""];this setVectorUp [0,0,+0.1];this setVariable [""R3F_LOG_disabled"", true]";
+			init="this enableSimulation false; this allowDamage false;this SetObjectTexture [0,""mapconfig\logo.paa""];this setVectorUp [0,0,+0.1];this setVariable [""R3F_LOG_disabled"", true]";
 		};
 		class Item780
 		{
@@ -12061,7 +12061,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.40000001;
-			init="this enableSimulation true; this allowDamage false;this setVectorUp [0,0,+0.1];this SetObjectTexture [0,""mapconfig\logo.png""];";
+			init="this enableSimulation true; this allowDamage false;this setVectorUp [0,0,+0.1];this SetObjectTexture [0,""mapconfig\logo.paa""];";
 		};
 		class Item821
 		{
@@ -12081,7 +12081,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.40000001;
-			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.png""];    ";
+			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.paa""];    ";
 		};
 		class Item823
 		{
@@ -12211,7 +12211,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false;this SetObjectTexture [0,""mapconfig\logo.png""];this setVectorUp [0,0,+0.2]";
+			init="this enableSimulation false; this allowDamage false;this SetObjectTexture [0,""mapconfig\logo.paa""];this setVectorUp [0,0,+0.2]";
 		};
 		class Item836
 		{
@@ -12252,7 +12252,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
-			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.png""];    ";
+			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.paa""];    ";
 		};
 		class Item840
 		{
@@ -12262,7 +12262,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
-			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.png""];    ";
+			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.paa""];    ";
 		};
 		class Item841
 		{
@@ -12739,7 +12739,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.40000001;
-			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.png""];    ";
+			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.paa""];    ";
 		};
 		class Item889
 		{
@@ -13080,7 +13080,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false;this SetObjectTexture [0,""mapconfig\logo.png""];this setVectorUp [0,0,+0.2]";
+			init="this enableSimulation false; this allowDamage false;this SetObjectTexture [0,""mapconfig\logo.paa""];this setVectorUp [0,0,+0.2]";
 		};
 		class Item923
 		{
@@ -13265,7 +13265,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.40000001;
-			init="this setPos [ getPos this select 0, getPos this select 1, -0.1];this enableSimulation false; this allowDamage false;this SetObjectTexture [0,""mapconfig\logo.png""];this setVectorUp [0,0,+0.1]";
+			init="this setPos [ getPos this select 0, getPos this select 1, -0.1];this enableSimulation false; this allowDamage false;this SetObjectTexture [0,""mapconfig\logo.paa""];this setVectorUp [0,0,+0.1]";
 		};
 		class Item941
 		{
@@ -13659,7 +13659,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
-			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.png""];    ";
+			init="this setPos [ getPos this select 0, getPos this select 1, -1];  this setVectorUp[0,-0,0.5];  this setVariable [""R3F_LOG_disabled"", true];  this allowDamage false;  this SetObjectTexture [0,""mapconfig\logo.paa""];    ";
 		};
 		class Item980
 		{
